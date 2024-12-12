@@ -184,3 +184,5 @@ yarl==1.18.3
 zipp==3.21.0
 folium
 geopandas
+plotly
+leafmap
