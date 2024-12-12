@@ -41,7 +41,7 @@ st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
 ### Demand Forecasting for City - part 1 ###
 
-df_city_names = pd.read_csv('../data/output_passengers.csv')
+df_city_names = pd.read_csv('./data/output_passengers.csv')
 unique_metropolitan_areas_df = pd.DataFrame(df_city_names['metropolitan_area'].unique(), columns=['metropolitan_area'])
 
 st.header(":airplane: Passenger flow Predictor in Brazil :airplane:")
