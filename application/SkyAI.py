@@ -2,7 +2,7 @@
 import streamlit as st
 
 # CSS styyling to add home page background image & hide navbar color
-st.image('./data/sky-ai-background-home-6.png')
+st.image('./data/sky-ai-background-home-6.png',use_container_width=True)
 
 #css = '''
 #.stApp {
