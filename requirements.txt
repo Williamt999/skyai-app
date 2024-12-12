@@ -186,3 +186,4 @@ folium
 geopandas
 plotly
 leafmap
+streamlit_folium
