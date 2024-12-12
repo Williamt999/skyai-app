@@ -65,8 +65,8 @@ else:
 st.title("New airport demand heatmap")
 
 # Load the shapefiles
-no_airport_gdf_2 = gpd.read_file('../data/shapefiles/no_airport_gdf_2.shp')  # Update with the correct path
-gdf = gpd.read_file('../data/shapefiles/max_flow_per_ma.shp')  # Update with the correct path
+no_airport_gdf_2 = gpd.read_file('./data/shapefiles/no_airport_gdf_2.shp')  # Update with the correct path
+gdf = gpd.read_file('./data/shapefiles/max_flow_per_ma.shp')  # Update with the correct path
 
 # Split the GeoDataFrame into regions with and without airports
 no_airport_gdf_2 = no_airport_gdf_2.copy()
