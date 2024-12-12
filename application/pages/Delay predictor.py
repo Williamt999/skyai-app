@@ -33,7 +33,7 @@ st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 # Page title (H1 heading)
 st.header(":airplane: Flight Delay Predictor :clock4:")
 
-df_flight = pd.read_csv("../data/flight-detail-grouped.csv")
+df_flight = pd.read_csv("./data/flight-detail-grouped.csv")
 df_flight.drop(columns='Unnamed: 0')
 
 with st.form(key='params_for_api'):
