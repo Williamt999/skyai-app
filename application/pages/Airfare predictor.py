@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 
 # Import relevant data used in the API
-routes_mapping = pd.read_csv("../data/routes_mapping.csv", encoding='UTF-8')
+routes_mapping = pd.read_csv("./data/routes_mapping.csv", encoding='UTF-8')
 
 # Airport full name mapping
 airport_mapping = {
