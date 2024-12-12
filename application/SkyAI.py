@@ -5,7 +5,7 @@ import streamlit as st
 css = '''
 .stApp {
 
-    background-image: url('./data/sky-ai-background-home-6.png');
+    background-image: url('https://github.com/Williamt999/skyai-app/blob/main/data/sky-ai-background-home-6.png');
     background-size: cover;
 
 }
